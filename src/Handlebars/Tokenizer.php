@@ -164,7 +164,7 @@ class Tokenizer
                 } elseif ($this->tagChange(self::T_UNESCAPED.$this->otag, $text, $i) and $this->escaped) {
                     $this->buffer .= "{{{";
                     $i += 2;
-                    continue;
+                    continue 2;
                 } elseif ($this->tagChange($this->otag, $text, $i) and (!$this->escaped || $prev_slash)) {
                     $i--;
                     $this->flushBuffer();
