@@ -8,8 +8,8 @@ installation
 
 add the following to require property of your composer.json file:
 
-`"xamin/handlebars.php": "dev-master"` for php 5.3+
-`"xamin/handlebars.php": "dev-php-52"` for php 5.2
+`"tnowak3000/handlebars.php": "dev-master"` for php 5.3+
+`"tnowak3000/handlebars.php": "dev-php-52"` for php 5.2
 
 then run:
 
@@ -97,6 +97,7 @@ license
 
     Copyright (c) 2010 Justin Hileman
     Copyright (C) 2012-2013 Xamin Project and contributors
+    Copyright (C) 2020 Tomasz Nowak
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
