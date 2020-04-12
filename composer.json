@@ -1,7 +1,7 @@
 {
-    "name": "xamin/handlebars.php",
+    "name": "tnowak3000/handlebars.php",
     "description": "Handlebars processor for php",
-    "homepage": "https://github.com/XaminProject/handlebars.php",
+    "homepage": "https://github.com/tnowak3000/handlebars.php",
     "type": "library",
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -14,7 +14,11 @@
         {
             "name": "Behrooz Shabani (everplays)",
             "email": "everplays@gmail.com"
-        }
+        },
+        {
+            "name": "Tomasz Nowak (TRIGER)",
+            "email": "tnowak@triger.com.pl"
+        }        
     ],
     "require": {
 
