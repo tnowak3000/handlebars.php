@@ -210,7 +210,7 @@ class Tokenizer
             default:
                 if ($this->tagChange(self::T_TRIM . $this->ctag, $text, $i)) {
                     $this->trimRight = true;
-                    continue;
+                    continue 2;
                 }
                 if ($this->tagChange($this->ctag, $text, $i)) {
                     // Sections (Helpers) can accept parameters
